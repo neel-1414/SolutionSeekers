@@ -1,3 +1,7 @@
+@font-face{
+    font-family: options;
+    src: url(/font/static/Epilogue-Light.ttf)
+}
 body{
     background-color: white;
 }
@@ -7,7 +11,7 @@ body{
     justify-content: center;
     align-items: center;
     width: 15%;
-    margin-right: 40%;
+    margin-right: 50%;
 }
 .navbar{
     display: flex;
@@ -19,11 +23,12 @@ h1{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .nav_options{
-    font-size:  26px;
-    display: flex;
+    font-size:  20px;
+font-family:'options'; 
+   display: flex;
     margin: 3%; 
 }
 #opt1, #opt2 ,#opt3 ,#opt4 {
-    margin-right: 40%;
+    margin-right: 20%;
 }
 
