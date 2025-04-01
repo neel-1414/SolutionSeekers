@@ -28,7 +28,22 @@ font-family:'options';
    display: flex;
     margin: 3%; 
 }
-#opt1, #opt2 ,#opt3 ,#opt4 {
+#opt1, #opt2 ,#opt3 ,#opt4 :hover
+{
     margin-right: 20%;
 }
+#opt1:hover{
+    border: 1px solid;
+}
+#opt2:hover{
+    border: 1px solid;
+}
+#opt3:hover{
+    border: 1px solid;
+}
+#opt4:hover{
+    border: 1px solid;
+}
+
+
 
