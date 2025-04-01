@@ -11,7 +11,7 @@ body{
     justify-content: center;
     align-items: center;
     width: 15%;
-    margin-right: 50%;
+    margin-right: 55%;
 }
 .navbar{
     display: flex;
@@ -21,9 +21,10 @@ h1{
     align-items: center;
     margin-top: 30px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
 }
 .nav_options{
-    font-size:  20px;
+    font-size:  23px;
 font-family:'options'; 
    display: flex;
     margin: 3%; 
