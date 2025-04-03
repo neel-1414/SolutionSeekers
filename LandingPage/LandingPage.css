@@ -1,11 +1,19 @@
+@font-face {
+    font-family: inter;
+    src: url(/font/static/Inter_24pt-Light.ttf );
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
 .logo{
     display: flex;
-    display: inline-flex;
     justify-content: center;
     align-items: center;
     width: 15%;
-    margin-left: 10%; 
-
+    
 }
 h1{
     justify-content: center;
@@ -14,17 +22,10 @@ h1{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
 }
-.navabar{
-    display: flex;
-    display: inline-flex;
 
-}
 .search{
-    display: flex;
-    display: inline-flex;
-    margin-left: 30%;
-    
-        
+
+    margin-left: 10%;
 }
 #searchbar{
     font-size: 28px;
@@ -32,4 +33,31 @@ h1{
     height: 60px;
     border: none;
     margin-top: 7px;
+   
+}
+.navoptions{
+    display: flex;  
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 80px;
+    margin-left: 20%;
+    font-size: 25px;
+    font-family: 'inter';
+   
+}
+.navoptions span:hover{
+    text-decoration: underline;
+}
+.navoptions button{
+    height: 60px;
+    width: 150px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    background-color: #1EBAF3;
+    border: none;
+    border-radius: 10px;
+ 
+} .navoptions button:hover{
+    border: 2px solid;
 }
