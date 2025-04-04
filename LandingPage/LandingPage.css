@@ -8,6 +8,7 @@
     align-items: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
+
 .logo{
     display: flex;
     justify-content: center;
@@ -15,6 +16,7 @@
     width: 15%;
     
 }
+
 h1{
     justify-content: center;
     align-items: center;
@@ -39,7 +41,7 @@ h1{
     display: flex;  
     align-items: center;
     justify-content: space-evenly;
-    gap: 80px;
+    gap: 30%;
     margin-left: 20%;
     font-size: 25px;
     font-family: 'inter';
@@ -50,7 +52,7 @@ h1{
 }
 .navoptions button{
     height: 60px;
-    width: 150px;
+    width: ;
     color: white;
     font-size: large;
     font-weight: bold;
