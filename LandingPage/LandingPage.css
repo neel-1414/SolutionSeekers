@@ -1,13 +1,13 @@
 @font-face {
     font-family: inter;
-    src: url(/font/static/Inter_24pt-Light.ttf );
+    src: url(/SolutionSeekers/font/static/Inter_24pt-Light.ttf);
 }
-
+    
 .navbar{
     display: flex;
     align-items: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-
+    
 }
 
 .logo{
@@ -15,6 +15,8 @@
     justify-content: center;
     align-items: center;
     width: 15%;
+    margin-right: 5%;
+    margin-left:1%;
     
 }
 
@@ -26,20 +28,24 @@ h1{
 }
 
 .search{
-    margin-left: 10%;
+    display: flex;
+    margin-left: 0%;
+    justify-content: center;
+    align-items: center;
 }
 #searchbar{
-    font-size: 28px;
+    font-size: 18px;
     width: 300px;
     height: 60px;
     border: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .navoptions{
     display: flex;  
     align-items: center;
     justify-content: space-evenly;
-    gap:7vh;
-    margin-left: 20%;
+    gap:6vh;
+    margin-left: 13%;
     font-size: 25px;
     font-family: 'inter';
    
@@ -49,7 +55,7 @@ h1{
 }
 .navoptions button{
     height: 60px;
-    width: 150px;
+    width: 120px;
     color: white;
     font-size: large;
     font-weight: bold;
@@ -61,3 +67,50 @@ h1{
     border: 2px solid;
 }
 
+@media (max-width: 600px)
+{
+    .navbar{
+        display: flex;
+        align-items: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+        
+    }
+    
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 5%;
+        margin-left: 20%;
+    }
+     #logo{
+        width: 50px;
+     }
+    
+    h1{
+        justify-content: center;
+        align-items: center;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 25px;
+    }
+    
+    .search{
+
+        margin-left:58%;
+    }
+    #searchbar{
+        display: none;
+        
+    }
+    .navoptions{
+        display: none;
+       
+    }
+   
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
