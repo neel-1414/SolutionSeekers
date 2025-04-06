@@ -1,12 +1,13 @@
 @font-face {
     font-family: inter;
-    src: url(/font/static/Inter_24pt-light.ttf);
+    src: url(/SolutionSeekers/font/static/Inter_24pt-Light.ttf);
 }
     
 .navbar{
     display: flex;
     align-items: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    
 }
 
 .logo{
@@ -14,6 +15,8 @@
     justify-content: center;
     align-items: center;
     width: 15%;
+    margin-right: 5%;
+    margin-left:1%;
     
 }
 
@@ -25,7 +28,10 @@ h1{
 }
 
 .search{
-    margin-left: 10%;
+    display: flex;
+    margin-left: 0%;
+    justify-content: center;
+    align-items: center;
 }
 #searchbar{
     font-size: 28px;
@@ -37,8 +43,8 @@ h1{
     display: flex;  
     align-items: center;
     justify-content: space-evenly;
-    gap:7vh;
-    margin-left: 20%;
+    gap:6vh;
+    margin-left: 13%;
     font-size: 25px;
     font-family: 'inter';
    
