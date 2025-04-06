@@ -1,8 +1,8 @@
 @font-face {
     font-family: inter;
-    src: url(/font/static/Inter_24pt-Light.ttf );
+    src: url(/font/static/Inter_24pt-light.ttf);
 }
-
+    
 .navbar{
     display: flex;
     align-items: center;

@@ -1,6 +1,6 @@
 @font-face{
     font-family: options;
-    src: url(/font/static/Epilogue-Light.ttf)
+    src: url(/SolutionSeekers/font/static/Epilogue-Light.ttf)
 }
 body{
     background-color: white;
@@ -11,8 +11,9 @@ body{
     justify-content: center;
     align-items: center;
     width: 15%;
-    margin-right: 55%;
+    margin-right: 40%;
 }
+
 .navbar{
     display: flex;
 }
