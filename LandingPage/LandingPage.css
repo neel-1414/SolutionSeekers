@@ -34,10 +34,11 @@ h1{
     align-items: center;
 }
 #searchbar{
-    font-size: 28px;
+    font-size: 18px;
     width: 300px;
     height: 60px;
     border: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .navoptions{
     display: flex;  
@@ -54,7 +55,7 @@ h1{
 }
 .navoptions button{
     height: 60px;
-    width: 150px;
+    width: 120px;
     color: white;
     font-size: large;
     font-weight: bold;
